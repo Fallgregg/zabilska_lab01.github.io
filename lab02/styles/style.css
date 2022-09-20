@@ -1,0 +1,116 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:first-child {
+    background-color: #448f8f;
+    color: #5B0D03;
+}
+
+tr:first-child:hover {
+    background-color: #f5f544;
+    color: #5B0D03;
+}
+
+tr:nth-child(2) {
+    background-color: #f5f544;
+    color: #5B0D03;
+}
+
+tr:nth-child(2):hover {
+    background-color: #448f8f;
+    color: #5B0D03;
+}
+
+
+.task2{
+    display: flex;
+    left: 300px;
+}
+
+.figure1{
+  position: relative;
+  margin-top: 30px;
+  left: 40px;
+}
+
+.figure2{
+  position: relative;
+  margin-top: 30px;
+  left: 100px;
+}
+
+.circle1-position {
+  position: relative;
+  border: 15px solid black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}	
+.circle2-position {
+  position: absolute;
+  background: black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0px 0px -25px;
+}
+
+.cross-position {
+  position: absolute;
+  opacity: 1;
+}
+.cross-position:before, .cross-position:after {
+  position: absolute;
+  top: -25px;
+  left: 47px;
+  content: ' ';
+  height: 150px;
+  width: 5px;
+  background-color: black;
+}
+
+.cross-position:before {
+  transform: rotate(90deg);
+}
+
+.circle1-transform {
+  border: 15px solid black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.circle2-transform {
+ transform: scale(1) translate(103%, 100%);
+  background: black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0px 0px -25px;
+}
+
+.cross-transform {
+  transform: scale(1) translate(3%, 100%);
+  opacity: 1;
+}
+
+.cross-transform:before, .cross-transform:after {
+  position: absolute;
+  top: -50px;
+  left: 47px;
+  content: ' ';
+  height: 150px;
+  width: 5px;
+  background-color: black;
+}
+
+.cross-transform:before {
+  transform: rotate(90deg);
+}
+ 
