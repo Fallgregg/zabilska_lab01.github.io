@@ -1,0 +1,48 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+    background-color: rgb(253, 255, 209);
+	height: 100px;
+}
+
+button {
+	width: 170px;
+	height: 50px;
+	margin: 25px auto;
+    border-radius: 7px;
+	background: rgb(255, 255, 255);
+}
+
+button:hover {
+	background: rgb(240, 248, 155);
+}
+
+.content {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.person {
+	display: inline-flex;
+	flex-direction: column;
+	width: 15%;
+	margin: 10px 10px 10px 10px;
+	padding: 7px;
+	background: rgb(0, 0, 0);
+	border-radius: 12px;
+
+}
+.person p{
+	color:rgb(255, 255, 255);
+	text-align: center;
+	margin: 5px;
+}
+.person img{
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
